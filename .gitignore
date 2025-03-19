@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# C extensions
+*.so
+ 
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+ 
+# PyInstaller
+*.manifest
+*.spec
+ 
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+ 
+# Pyenv
+.python-version
+ 
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+ 
+# Jupyter notebooks
+.ipynb_checkpoints
+ 
+# IPython
+profile_default/
+ipython_config.py
+ 
+# pyenv
+.python-version
+ 
+# mypy
+.mypy_cache/
+ 
+# Pyre
+.pyre/
+ 
+# pytest
+.cache/
+ 
+# Coverate
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+ 
+# Logs
+*.log
+ 
+# LangChain specific
+# Ignore LangChain caching directories
+langchain_cache/
+*.llm_cache
+*.db
+ 
+# Local env files
+.env
+*.env
+.env.*.local
+ 
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+ 
+# Data files
+data/
+chroma/
+ 
+# Python environment
+Scripts/
